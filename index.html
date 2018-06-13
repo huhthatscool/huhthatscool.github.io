@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="format-detection" content="telephone=no"><!--Disable Mobile Device Link Creation-->
+<title>HTC - Root</title>
+<meta name="description" content="Huh Thats Cool">
+<meta name="keywords" content="HTC">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body id="top" class="index">
+<div class="container">
+<header>
+	<h1>HTC</h1>
+</header>
+<article>
+
+<div class="svgWrapper">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="500px" height="500px" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+
+    <!--Orbit-->
+    <path id="orbit" fill="none" stroke="#333" stroke-miterlimit="10" d="M425,250c0,96.7-78.3,175-175,175c-96.7,0-175-78.3-175-175
+        S153.3,75,250,75C346.7,75,425,153.3,425,250z" />
+
+    <!--Group that follows Orbit-->
+    <g>
+        <!--Earth-->
+        <circle fill="#0071BC" fill-opacity="0.6" cx="" cy="" r="18" />
+
+        <!--Moon Orbit-->
+        <path id="moonOrbit" stroke="#222" fill="transparent" stroke-width="1" d="M0 50
+            a 50 50 0 1 1 0.1 0z" />
+
+        <!--Moon-->
+        <circle fill="#bbbbbb" cx="" cy="" r="7.5">
+            <animateMotion dur="4s" repeatCount="indefinite">
+               <mpath xlink:href="#moonOrbit" />
+            </animateMotion>
+        </circle>
+
+        <!--Animate the group-->
+        <animateMotion dur="30s" repeatCount="indefinite">
+            <mpath xlink:href="#orbit" />
+        </animateMotion>
+    </g>
+</svg>
+</div>
+
+</article>
+
+</div> <!--end container-->
+
+</body>
+</html>
